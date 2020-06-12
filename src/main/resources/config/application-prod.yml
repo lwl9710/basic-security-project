@@ -1,0 +1,9 @@
+spring:
+  profiles: prod
+  datasource:
+    # 数据库地址
+    address: 127.0.0.1:3306/www
+    username: root
+    password: 123456
+server:
+  port: 8888
